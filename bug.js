@@ -1,0 +1,2 @@
+In React Router Dom v6, attempting to access the 
+`useParams` hook outside of a component rendered by a route results in undefined values.  This commonly happens when trying to access route parameters from a parent component that contains the route component.  The `useParams` hook is only available within the context of a route's component tree.
